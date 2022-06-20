@@ -9,6 +9,8 @@
         public string? ImageUrl { get; set; }
         public float Estoque { get; set; }
         public DateTime DataCadastro { get; set; }
-
+        //propriedade de navegação de produtos e categorias 
+        public Categoria? Categoria { get; set; }
+        public int? CategoriaId { get; set; }
     }
 }
